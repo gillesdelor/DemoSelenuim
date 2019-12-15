@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test: Facebook Sign Up(failed)">
+    <classes>
+      <class name="facebooksignup.FacebookSignUp">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test01_signUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- facebooksignup.FacebookSignUp -->
+    </classes>
+  </test> <!-- Test: Facebook Sign Up(failed) -->
+</suite> <!-- Failed suite [Suite] -->

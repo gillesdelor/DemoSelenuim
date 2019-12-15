@@ -1,0 +1,26 @@
+package selectionstructure;
+
+public class MyOwnSelectionStructure {
+
+	public static void main(String[] args) {
+		// define variable
+		int Grade = 101;
+				if (Grade <= 40){
+					System.out.println("Your grade is D");
+					
+				}else if(Grade <= 60){
+					System.out.println("Your grade is C");
+					
+				}else if (Grade <= 80){
+					System.out.println("Your grade is B");
+					
+				}else if (Grade <= 100){
+					System.out.println("Your grade is A");
+					
+				}else{
+					System.out.println("Grade not found");
+					
+				}							
+	}
+
+}

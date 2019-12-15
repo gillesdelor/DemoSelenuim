@@ -1,0 +1,10 @@
+package javamethod;
+
+public class MyJavaMethod_Add {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package javamethod;
+
+public class JavaMethod_Add {
+
+	// define two numbers
+			static int num1 = 25;
+			static int num2 = 75;
+
+	public static void main(String[] args) {
+	// call the add method
+		int total1 = getNumber1();
+	// print out the number
+	   System.out.println("Total1:" +total1);
+	   
+	   System.out.println();
+	   
+	   int total2 = getNumber2();
+	 // print out the number
+	   System.out.println("Total2:" +total2);
+	} 
+	 public static int getNumber1(){
+     // add the number
+		int sum = num1 + num2;
+	// return the sum
+		return sum;
+	 }	
+	public static int getNumber2(){
+	 // define the numbers
+		int sum = num1 + num2;
+	// return the sum
+		return sum;	
+	}
+					   
+	   }
+
+	
+
+

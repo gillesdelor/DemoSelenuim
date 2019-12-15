@@ -1,0 +1,26 @@
+package TestRepository;
+
+import java.io.FilterInputStream;
+import java.io.InputStream;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+	
+		try {
+			Thread.sleep(2000);
+			String arr[] = {"1","3","John","Tom"};
+			//System.out.println(1/0);
+			InputStream ind = new InputStream();
+			System.out.println(arr[7]);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
+// try , throws , throw, catch , finally
+
+// try , catch and finally
+

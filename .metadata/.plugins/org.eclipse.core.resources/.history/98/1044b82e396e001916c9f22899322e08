@@ -1,0 +1,70 @@
+package facebooksignup;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class FacebookSignUp {
+
+	//declare variables
+		 public WebDriver driver;
+		 public String Url;
+		 
+ @BeforeTest
+ public void setUp()throws Exception {
+	 //initialize the variables
+	 System.setProperty("webdriver.chrome.driver",
+	 "C:\\Users\\Gilles Z\\Desktop\\Selenium\\SeleniumScripts\\FacebookSignUp\\lib\\chromedriver.exe");
+	 
+	 //start the chrome browser
+	 driver = new ChromeDriver();
+	  
+	 //assign the Url
+	 Url = "https://www.facebook.com";	 	 
+ }
+ 
+ @Test 
+ public void test01_signUp() throws Exception {
+	//Step 1: navigate to the browser
+	 driver.navigate().to(Url);
+	 Thread.sleep(3000);
+	//Step 2: find out the first name text box and enter first name 
+	  driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Tonya");
+	 Thread.sleep(2000);
+	 //Step 3: find out the last name text box and enter last name
+	  driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Strong");
+	 Thread.sleep(2000);
+	 //Step 4: find out the email or mobile number and enter it
+	   driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("tonyastrong@gmail.com");
+	 Thread.sleep(2000);
+	 //Step 5: find out the email again and enter it
+	    driver.findElement(By.xpath("//input[@name='reg_email_confirmation__']")).sendKeys("tonyastrong@gmail.com");
+		Thread.sleep(2000);
+	 //Step 6: find out the password text box and enter the password
+		driver.findElement(By.xpath("//input[@name='reg_passwd__']")).sendKeys("1234@@+++");
+		Thread.sleep(2000);
+	 //Step 7: find out the birth month drop drop down and select it 
+		driver.findElement(By.xpath("//select[@name='birthday_month']")).sendKeys("Jul");
+		Thread.sleep(2000);
+	 //Step 8: find out the birth day drop down and select it
+		driver.findElement(By.xpath("//select[@name='birthday_day']")).sendKeys("22");
+		Thread.sleep(2000);
+	 // Step 9: find out the birth year and select it
+		driver.findElement(By.xpath("//select[@name='birthday_year']")).sendKeys("1981");
+		Thread.sleep(2000);
+	 // Step 10: find the gender radio and click on it
+		driver.findElement(By.xpath("//input[@value='1']")).click();
+		Thread.sleep(5000);	
+ }
+ 
+ @AfterTest
+ public void closeBrowser()throws Exception {
+	 //close the browser
+	 driver.close();	   
+ }
+ 
+}
+ 

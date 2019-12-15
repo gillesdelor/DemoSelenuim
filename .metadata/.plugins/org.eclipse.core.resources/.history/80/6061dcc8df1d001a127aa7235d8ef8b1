@@ -1,0 +1,9 @@
+2019-12-13 04:17:21,359 - BaseClass -INFO - Url is opened
+2019-12-13 04:20:57,087 - BaseClass -INFO - Url is opened
+2019-12-13 04:20:59,409 - BaseClass -INFO - Entered username
+2019-12-13 04:21:01,476 - BaseClass -INFO - Entered password
+2019-12-13 04:21:17,284 - BaseClass -INFO - Login test passed
+2019-12-13 04:29:39,317 - InetBanking -INFO - Url is opened
+2019-12-13 04:29:41,574 - InetBanking -INFO - Entered username
+2019-12-13 04:29:43,645 - InetBanking -INFO - Entered password
+2019-12-13 04:30:32,471 - InetBanking -INFO - Login test passed

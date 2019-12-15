@@ -1,0 +1,123 @@
+package com.InetBanking.PageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class AddCustomerPage 
+{
+     WebDriver driver;
+	
+	// Step 1: Click on Marketplace button 
+	By lnkAddNewCust = By.xpath("//div[contains(text(),'Marketplace')]");
+	
+	// Step 2: Click on Vehicule button
+	By txtCustName = By.xpath("//div[contains(text(),'Vehicles')]");
+	
+	// Step 3: Input the max year in the max text box
+	By txtdob = By.id("jsc_c_o");	
+	
+	//Step 4: Input the min price in the min text box
+	By rdGender = By.id("jsc_c_l");
+	
+	//Step 5: Input the max price in the max text box
+	By txtAddress = By.id("jsc_c_m");
+	
+	//Step 6 : Input the min year in the min text box
+	By txtCity = By.id("jsc_c_n");
+	
+	// Step 7 : Input the max year in the max text box
+	By txtState = By.id("jsc_c_o");	
+	
+	// Step 8: Click on Marketplace button 
+	By txtPinno= By.xpath("//div[contains(text(),'Marketplace')]");
+		
+	// Step 9: Click on Vehicule button
+    By txtPhone = By.xpath("//div[contains(text(),'Vehicles')]");
+	
+	//Step 10: Input the min price in the min text box
+    By txtEmailId = By.id("jsc_c_l");
+	
+	//Step 11: Input the max price in the max text box
+    By txtPassword = By.id("jsc_c_m");
+	
+	//Step 12: Input the min year in the min text box
+	By minYear = By.id("jsc_c_n");
+	
+	//Pazametarized default constructor to initialize the webdriver 	
+	public AddCustomerPage (WebDriver driver)
+	{	
+		this.driver = driver;
+	}
+	
+	// Create the method for performing the UI Webelement on Step 1
+	
+		public void ClickMarketPlace()
+		{
+			driver.findElement(marketplaceButton).click();
+		}
+	// Create the method for performing the UI Webelement on Step 2
+		public void ClickVehicule()
+		{
+			driver.findElement(vehiculeButton).click();
+		}
+	// Create the method for performing the UI Webelement on Step 3
+		
+		public void InputMinPrice (String minP)
+		{
+			driver.findElement(minPrice).sendKeys(minP);
+		}
+	// Create the method for performing the UI Webelement on Step 4
+		
+		public void InputMaxPrice (String maxP)
+		{
+			driver.findElement(maxPrice).sendKeys(maxP);
+		}
+   // Create the method for performing the UI Webelement on Step 5
+		
+		public void InputMinYear (String minY)
+		{
+			driver.findElement(minYear).sendKeys(minY);
+		}
+  // Create the method for performing the UI Webelement on Step 6
+		
+		public void InputMaxYear (String maxY)
+		{
+			driver.findElement(maxYear).sendKeys(maxY);
+		}
+  // Create the method for performing the UI Webelement on Step 6
+		
+		public void InputMaxYear (String maxY)
+		{
+			driver.findElement(maxYear).sendKeys(maxY);
+		}
+  // Create the method for performing the UI Webelement on Step 6
+		
+		public void InputMaxYear (String maxY)
+		{
+			driver.findElement(maxYear).sendKeys(maxY);
+		}
+ // Create the method for performing the UI Webelement on Step 6
+		
+		public void InputMaxYear (String maxY)
+		{
+			driver.findElement(maxYear).sendKeys(maxY);
+		}
+ // Create the method for performing the UI Webelement on Step 6
+		
+		public void InputMaxYear (String maxY)
+		{
+			driver.findElement(maxYear).sendKeys(maxY);
+		}
+ // Create the method for performing the UI Webelement on Step 6
+		
+		public void InputMaxYear (String maxY)
+		{
+			driver.findElement(maxYear).sendKeys(maxY);
+		}
+	
+	
+	
+	
+}
+   
+

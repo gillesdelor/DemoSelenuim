@@ -1,0 +1,46 @@
+  package AdvancedDemo;
+
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class DownloadFile {
+
+	public static void main(String[] args) throws Exception {
+		System.setProperty("webdriver.gecko.driver", 
+		        "C:\\Users\\Gilles Z\\Desktop\\Selenium\\selenium-libraries\\geckodriver.exe" );			
+				WebDriver driver = new FirefoxDriver();				
+				driver.get("https://www.google.com/");
+				driver.manage().window().maximize();
+				
+				// Download Java proccess
+
+				driver.findElement(By.name("q")).sendKeys("java download");
+				driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+				Thread.sleep(2000);
+				
+				driver.findElement(By.xpath("//h3[contains(text(),'Download Free Java Software')]")).click();
+				Thread.sleep(4000);
+				
+				driver.findElement(By.xpath("//span[contains(text(),'Java Download')]")).click();
+				Thread.sleep(2000);
+				
+				driver.findElement(By.xpath("//span[contains(text(),'Agree and Start Free Download')]")).click();
+				
+				// Handle the pop-up and click on Save File to download.
+				
+				Robot r = new Robot();
+				
+				r.keyPress(KeyEvent.VK_TAB);
+				r.keyPress(KeyEvent.VK_TAB);
+				r.keyPress(KeyEvent.VK_ENTER);
+
+
+
+	}
+
+}

@@ -1,0 +1,4 @@
+name = Stud1
+course= Testing
+sub-course= selenuim
+time= 08.00 PM East

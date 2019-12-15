@@ -1,0 +1,20 @@
+package com.InetBanking.TestCases;
+
+import org.testng.annotations.Test;
+
+import com.InetBanking.PageObjects.LoginPage;
+
+public class TC_LoginTest_001 extends BaseClass
+{
+	@Test
+	public void loginTest()
+	{
+		driver.get(baseUrl);
+		LoginPage login = new LoginPage(driver);
+		login.setUserName(username);
+		login.setPassword(password);
+		
+		
+	}
+
+}

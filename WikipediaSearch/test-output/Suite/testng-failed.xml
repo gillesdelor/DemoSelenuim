@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Wikipedia(failed)">
+    <classes>
+      <class name="wikipediasearch.Wikipedia">
+        <methods>
+          <include name="closeBrowse"/>
+          <include name="setUp"/>
+          <include name="test02_searchWikipedia"/>
+        </methods>
+      </class> <!-- wikipediasearch.Wikipedia -->
+    </classes>
+  </test> <!-- Wikipedia(failed) -->
+</suite> <!-- Failed suite [Suite] -->

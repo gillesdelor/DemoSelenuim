@@ -1,0 +1,27 @@
+package containers;
+
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		// declare an array list
+		ArrayList<String>list = new ArrayList<String>();
+	    // add values to array
+		list.add("Herndon");
+		list.add("Reston");
+		list.add("Rosslyn");
+		list.add("Chantilly");
+		list.add("Marietta");
+		list.add("Hiram");
+		list.add("Fairfax");
+		list.add("Manassas");
+		list.add("Dulles");
+		list.add("Dumfries");
+	    
+	    // check if the list is not empty
+		System.out.println( "List is empty:" +list.isEmpty());
+			
+
+	}
+
+}

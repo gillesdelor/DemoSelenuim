@@ -1,0 +1,42 @@
+package com.InetBanking.TestCases;
+
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.testng.annotations.Test;
+
+import com.InetBanking.PageObjects.AddCustomerPage;
+import com.InetBanking.PageObjects.LoginPage;
+
+
+public class TC_AddCustomerTest_001 extends BaseClass 
+{
+	
+	@Test
+	public void addNewCustomer() throws InterruptedException
+	
+	{
+		// Login with customer credential
+		LoginPage login = new LoginPage(driver);
+		login.setUserName(username);
+		login.setPassword(password);
+		login.clickSubmit();
+		Thread.sleep(3000);
+		
+		// Adding new customer 
+		AddCustomerPage addCust = new AddCustomerPage(driver);
+		
+		
+		
+		
+		
+	
+		String email = randomstring()+"@gmail.com";
+		//addCust.custemailId (email)
+	}
+	
+	public String randomstring()
+	{
+		String generatedString = RandomStringUtils.randomAlphabetic(8);
+		return (generatedString);
+	}
+}

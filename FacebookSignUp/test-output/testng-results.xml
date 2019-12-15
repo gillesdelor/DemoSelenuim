@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[10/14/2019   07:09:29      https://www.facebook.com]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:32      Tonya]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:34      Strong]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:37      tonyastrong@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:44      jun]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:46      25]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:48      1965]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019   07:09:54    Male]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85689" started-at="2019-10-14T23:08:52Z" finished-at="2019-10-14T23:10:17Z">
+    <groups>
+    </groups>
+    <test name="Test: Facebook Sign Up" duration-ms="85689" started-at="2019-10-14T23:08:52Z" finished-at="2019-10-14T23:10:17Z">
+      <class name="facebooksignup.FacebookSignUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:facebooksignup.FacebookSignUp@4439f31e]" name="setUp" is-config="true" duration-ms="21936" started-at="2019-10-14T19:08:52Z" finished-at="2019-10-14T19:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test01_signUp()[pri:0, instance:facebooksignup.FacebookSignUp@4439f31e]" name="test01_signUp" duration-ms="40231" started-at="2019-10-14T19:09:14Z" finished-at="2019-10-14T19:09:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[10/14/2019   07:09:29      https://www.facebook.com]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:32      Tonya]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:34      Strong]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:37      tonyastrong@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:44      jun]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:46      25]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:48      1965]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019   07:09:54    Male]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test01_signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:facebooksignup.FacebookSignUp@4439f31e]" name="closeBrowser" is-config="true" duration-ms="23476" started-at="2019-10-14T19:09:54Z" finished-at="2019-10-14T19:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- facebooksignup.FacebookSignUp -->
+    </test> <!-- Test: Facebook Sign Up -->
+  </suite> <!-- Suite -->
+</testng-results>

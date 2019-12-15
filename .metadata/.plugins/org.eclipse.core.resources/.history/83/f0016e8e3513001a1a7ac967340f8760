@@ -1,0 +1,21 @@
+package TestRepository;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class TestClass {
+
+	public static void main(String[] args) throws InterruptedException, Throwable {
+	
+			Thread.sleep(2000);
+			
+			FileInputStream file = new FileInputStream(new File("gfgcontribute.xlsx")); 
+		
+	}
+
+}
+// try , throws , throw, catch , finally
+
+// try , catch and finally
+

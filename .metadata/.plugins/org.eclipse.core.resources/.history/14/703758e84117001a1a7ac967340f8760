@@ -1,0 +1,9 @@
+package com.InetBanking.TestCases;
+
+import com.InetBanking.PageObjects.BaseClass;
+
+public class TC_LoginTest_001 extends BaseClass
+
+{
+
+}

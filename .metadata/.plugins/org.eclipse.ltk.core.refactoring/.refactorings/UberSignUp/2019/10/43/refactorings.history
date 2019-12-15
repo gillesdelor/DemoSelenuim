@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move source folder &apos;junit-4.12.jar&apos; to &apos;UberSignUp&apos;&#x0D;&#x0A;- Original project: &apos;UberSignUp&apos;&#x0D;&#x0A;- Destination element: &apos;UberSignUp&apos;&#x0D;&#x0A;- Original element: &apos;UberSignUp/Lib/junit-4.12.jar&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folder" destination="=UberSignUp" element1="/Lib\/junit-4.12.jar" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1571906286930" version="1.0"/>
+</session>

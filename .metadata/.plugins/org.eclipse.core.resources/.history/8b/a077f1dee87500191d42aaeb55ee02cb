@@ -1,0 +1,9 @@
+package wikipediasearch;
+
+import org.testng.annotations.Test;
+
+public class WikipediaTest {
+  @Test
+  public void f() {
+  }
+}

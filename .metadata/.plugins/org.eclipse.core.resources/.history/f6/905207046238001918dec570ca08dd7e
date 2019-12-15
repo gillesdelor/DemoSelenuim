@@ -1,0 +1,29 @@
+package dealership;
+
+public class TestCars {
+
+	public static void main(String[] args) {
+		
+	}
+		// this method set the truck info
+		public static void setTruckInfo(Trucks truck, String model, String color, int doors, int cylinder){
+			truck.setModel(model);
+			truck.setColor(color);
+			truck.setDoors(doors);
+			truck.setCylinder(cylinder);
+			
+		}
+		
+		
+		// this method displays the truck info
+		public static void displayInventory(Trucks truck){
+			// display the truck info
+			System.out.println("Truck Model: "+truck.getModel());
+			System.out.println("Truck color: "+truck.getColor());
+			System.out.println("Number of door: "+truck.getDoors());
+			System.out.println("Cylinder: "+truck.cylinder());
+			System.out.println();
+			
+		}
+
+}

@@ -1,0 +1,44 @@
+ package AdvancedDemo;
+
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class UploadFile {
+
+	public static void main(String[] args) throws Exception {
+		System.setProperty("webdriver.gecko.driver", 
+				"C:\\Users\\Gilles Z\\Desktop\\Selenium\\selenium-libraries\\geckodriver.exe" );			
+				WebDriver driver = new FirefoxDriver();				
+				driver.get("https://www.naukri.com/");
+				driver.manage().window().maximize();
+								
+			// Click on the button Upload CV
+				Robot r = new Robot();				
+				driver.findElement(By.id("input_resumeParser")).click();	
+				r.setAutoDelay(1000);
+							
+		   // Select the file in File Explorer				
+				StringSelection Select = new StringSelection ("C:\\Users\\Gilles Z\\Desktop\\Resume Gilles Zannou");				
+                Toolkit.getDefaultToolkit().getSystemClipboard().setContents(Select, null);
+               
+            // Copy the File    
+                r.keyPress(KeyEvent.VK_CONTROL);             
+                r.keyPress(KeyEvent.VK_V);
+                
+            // Release the Clipboard button   
+                r.keyRelease(KeyEvent.VK_CONTROL);             
+                r.keyRelease(KeyEvent.VK_V);
+                
+            // Open the File
+                r.keyPress(KeyEvent.VK_ENTER);
+                r.keyRelease(KeyEvent.VK_ENTER);
+                
+	}
+
+}

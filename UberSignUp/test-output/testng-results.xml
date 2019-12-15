@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    Operating System ::::::::::null]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    Username::::::::::::::null]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    Java Version:::::::::::::null]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    Browser Name :::::::::::::Firefox]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    Browser Version :::::::::::69.0.3]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    IP Address::::::::::::::::::192.168.73.1]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:03    Hostname ::::::::::::::::GILLESZANNOU]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:45    gddddd@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:48    Paul]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:51    Smith]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:54    5715556666]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:23:58    hdhhddhh]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:05    Manassas, VA, USA]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:15    hfhhfhfhhh@aol.com]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:18    Jacques]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:20    Peter]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:23    5715556667]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:26    hhhdhhdhd]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:33    Manassas, VA, USA]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:43    gillesdelor@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:46    Gilles ]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:48    Zannou]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:51    5715556668]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:24:54    hdhddjdsdow]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:00    Manassas, VA, USA]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:10    snolory@yahoo.com]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:12    Euloge]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:15    Adimi]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:18    5715556669]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:21    hhhdhhdhd]]>
+    </line>
+    <line>
+      <![CDATA[10/14/2019 07:25:27    Manassas, VA, USA]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="182569" started-at="2019-10-14T23:22:40Z" finished-at="2019-10-14T23:25:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="182569" started-at="2019-10-14T23:22:40Z" finished-at="2019-10-14T23:25:42Z">
+      <class name="ubersignup.UberSignUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ubersignup.UberSignUp@6cc4c815]" name="setUp" is-config="true" duration-ms="23574" started-at="2019-10-14T19:22:40Z" finished-at="2019-10-14T19:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test01_systemInfo()[pri:0, instance:ubersignup.UberSignUp@6cc4c815]" name="test01_systemInfo" duration-ms="105" started-at="2019-10-14T19:23:03Z" finished-at="2019-10-14T19:23:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    Operating System ::::::::::null]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    Username::::::::::::::null]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    Java Version:::::::::::::null]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    Browser Name :::::::::::::Firefox]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    Browser Version :::::::::::69.0.3]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    IP Address::::::::::::::::::192.168.73.1]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:03    Hostname ::::::::::::::::GILLESZANNOU]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test01_systemInfo -->
+        <test-method status="PASS" signature="test02_signUp()[pri:0, instance:ubersignup.UberSignUp@6cc4c815]" name="test02_signUp" duration-ms="149801" started-at="2019-10-14T19:23:03Z" finished-at="2019-10-14T19:25:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[10/14/2019 07:23:45    gddddd@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:48    Paul]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:51    Smith]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:54    5715556666]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:23:58    hdhhddhh]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:05    Manassas, VA, USA]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:15    hfhhfhfhhh@aol.com]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:18    Jacques]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:20    Peter]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:23    5715556667]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:26    hhhdhhdhd]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:33    Manassas, VA, USA]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:43    gillesdelor@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:46    Gilles ]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:48    Zannou]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:51    5715556668]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:24:54    hdhddjdsdow]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:00    Manassas, VA, USA]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:10    snolory@yahoo.com]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:12    Euloge]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:15    Adimi]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:18    5715556669]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:21    hhhdhhdhd]]>
+            </line>
+            <line>
+              <![CDATA[10/14/2019 07:25:27    Manassas, VA, USA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test02_signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ubersignup.UberSignUp@6cc4c815]" name="closeBrowser" is-config="true" duration-ms="9008" started-at="2019-10-14T19:25:33Z" finished-at="2019-10-14T19:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ubersignup.UberSignUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,57 @@
+ package com.InetBanking.TestCases;
+
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+
+import com.InetBanking.Utilities.ReadConfig;
+
+public class BaseClass 
+{
+	ReadConfig readConfig = new ReadConfig();
+	public String baseUrl = readConfig.getApplicationUrl();
+	public String username = readConfig.getUsername();
+	public String password = readConfig.getPassword();
+	public static  WebDriver driver;
+	public static  Logger logger;
+	
+    @Parameters("Browser")
+	@BeforeClass
+	public void setUp(String browser)
+	{		
+		// Configuration of Log4J
+		logger = Logger.getLogger("ebanking");
+		PropertyConfigurator.configure("Log4J.properties");	
+		//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "\\Drivers\\geckodriver.exe");
+		
+		if(browser.equals("chrome"))
+		{
+		System.setProperty("webdriver.chrome.driver",readConfig.getChromePath());
+		driver = new ChromeDriver();
+		}
+		else if(browser.equals("firefox"))
+		{
+			System.setProperty("webdriver.gecko.driver",readConfig.getFirefoxPath());
+			driver = new ChromeDriver();
+		}
+		else if(browser.equals("ie"))
+		{
+			System.setProperty("webdriver.ie.driver",readConfig.getIEPath());
+			driver = new InternetExplorerDriver();
+		}
+		    driver.get(baseUrl);			 
+     }
+
+	@AfterClass
+	public void tearDown()
+	{
+		driver.quit();		
+	}
+		
+}  

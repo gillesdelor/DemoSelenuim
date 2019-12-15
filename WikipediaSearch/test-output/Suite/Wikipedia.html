@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>TestNG:  Wikipedia</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Wikipedia</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 26 22:41:47 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>137 seconds (137144 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='wikipediasearch.Wikipedia.test01_systemInfo()'><b>test01_systemInfo</b><br>Test class: wikipediasearch.Wikipedia<br/>
+<a href="#Output-1646371921" onClick='toggleBox("Output-1646371921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1646371921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1646371921">
+05/26/2019   10:42:29     Operating System::::::null<br/>
+05/26/2019   10:42:29     Username:::::::::Gilles Z<br/>
+05/26/2019   10:42:29     Java Version:::::::::null<br/>
+05/26/2019   10:42:29     Browser name ::::::::::::Chrome<br/>
+05/26/2019   10:42:29     Browser version::::::::74.0.3729.169<br/>
+05/26/2019   10:42:29     IP address:::::::::192.168.73.1<br/>
+05/26/2019   10:42:29     Hostname:::::::::::GILLESZANNOU<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>wikipediasearch.Wikipedia@2ef5e5e3</td></tr>
+<tr>
+<td title='wikipediasearch.Wikipedia.test02_searchWikipedia()'><b>test02_searchWikipedia</b><br>Test class: wikipediasearch.Wikipedia<br/>
+<a href="#Output-916835004" onClick='toggleBox("Output-916835004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-916835004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-916835004">
+05/26/2019   10:42:56     Selenium<br/>
+05/26/2019   10:43:19     Benin<br/>
+05/26/2019   10:43:41     eCommerce<br/>
+05/26/2019   10:43:56     Google Analytics<br/>
+</div>
+</td>
+<td></td>
+<td>94</td>
+<td>wikipediasearch.Wikipedia@2ef5e5e3</td></tr>
+</table><p>
+</body>
+</html>

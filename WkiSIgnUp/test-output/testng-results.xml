@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[11/18/2019  09:52:31    Selenium]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34582" started-at="2019-11-19T02:52:01Z" finished-at="2019-11-19T02:52:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34582" started-at="2019-11-19T02:52:01Z" finished-at="2019-11-19T02:52:36Z">
+      <class name="wikisignup.WkiSignUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:wikisignup.WkiSignUp@6d8a00e3]" name="setUp" is-config="true" duration-ms="20140" started-at="2019-11-18T21:52:01Z" finished-at="2019-11-18T21:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_SignUp()[pri:0, instance:wikisignup.WkiSignUp@6d8a00e3]" name="test_SignUp" duration-ms="9715" started-at="2019-11-18T21:52:22Z" finished-at="2019-11-18T21:52:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11/18/2019  09:52:31    Selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_SignUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:wikisignup.WkiSignUp@6d8a00e3]" name="closeBrowser" is-config="true" duration-ms="4650" started-at="2019-11-18T21:52:31Z" finished-at="2019-11-18T21:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- wikisignup.WkiSignUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

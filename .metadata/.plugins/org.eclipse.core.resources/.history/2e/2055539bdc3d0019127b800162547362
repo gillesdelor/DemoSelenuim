@@ -1,0 +1,10 @@
+package selectionstructure;
+
+public class MultipleSelectionStructure {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.InetBanking.TestCases;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import com.InetBanking.Utilities.ReadConfig;
+
+public class BaseClass
+{
+	ReadConfig readconfig = new ReadConfig();
+	
+	public String baseUrl = readconfig.getApplicationUrl()
+	public String username = readconfig.getUsername()
+	public String password = readconfig.getPassword()
+	public static WebDriver driver;
+	public static Logger logger;
+	
+	@BeforeClass
+	public void setUp()
+	System.setProperty("webdriver.", value)
+			
+
+}

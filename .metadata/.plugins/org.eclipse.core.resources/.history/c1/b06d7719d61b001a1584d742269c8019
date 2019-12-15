@@ -1,0 +1,45 @@
+package com.InetBanking.TestCases;
+
+import java.util.concurrent.TimeUnit;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import com.InetBanking.PageObjects.LoginPage;
+
+
+public class TC_LoginTest_001 extends BaseClass
+{
+	@Test
+	public void loginTest() throws Exception
+	{
+		
+		
+		logger.info("Url is opened");
+		
+		LoginPage login = new LoginPage(driver);
+		login.setUserName(username);
+		Thread.sleep(2000);
+		logger.info("Entered username");
+		
+		login.setPassword(password);
+		Thread.sleep(2000);
+		logger.info("Entered password");
+		
+		login.clickSubmit();
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		
+		// Asserton
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage 123"))
+		{
+		    Assert.assertTrue(true);
+		    logger.info("Login test passed");
+		}
+		else 
+		{  
+			captureScreen(driver,"TC_LoginTest_001");
+			Assert.assertTrue(false);
+			logger.info("Login test failed");
+		}
+		    
+	}
+}

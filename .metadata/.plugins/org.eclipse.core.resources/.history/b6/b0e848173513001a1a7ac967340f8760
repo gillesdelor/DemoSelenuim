@@ -1,0 +1,15 @@
+package TestRepository;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+	
+			Thread.sleep(2000);
+			
+	}
+
+}
+// try , throws , throw, catch , finally
+
+// try , catch and finally
+

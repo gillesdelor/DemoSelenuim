@@ -1,0 +1,24 @@
+package com.InetBanking.TestCases;
+
+import com.InetBanking.Utilities.XLUtils;
+
+public class TC_LoginDDT_002 extends BaseClass
+{
+	
+    @Test	
+
+}
+
+    @DataProvider(name = "LoginData")
+    getData()
+    {
+    	String path = System.getProperty("user.dir")+"/src/test/java/com/InetBanking/TestData/LoginData.xls";
+    	int rownum = XLUtils.getRowCount(path, "Sheet1");
+    	int colnum = XLUtils.getCellCount(path, "Sheet1", 1);
+    	
+    	String logindata[][] = new String[rownum][colnum];
+    	
+    	
+    }
+    
+    }

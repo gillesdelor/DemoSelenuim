@@ -1,0 +1,21 @@
+package TestRepository;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+	
+		try {
+			Thread.sleep(2000);
+			arr [] = {};
+			System.out.println(1/0);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
+// try , throws , throw, catch , finally
+
+// try , catch and finally
+
